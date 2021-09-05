@@ -4,7 +4,7 @@ on:
           - cron:  '40 18 * * *'
              # 24+3-8= 19  凌晨3：30分运行
   watch:
-    types: started    #手动star执行
+    types: start    #手动star执行
    
 jobs:
   test:
